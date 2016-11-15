@@ -1,0 +1,91 @@
+█ [ /Users/eugene/projects/hello_app ] bundle show
+Could not find gem 'web-console (= 2.0)' in any of the gem sources listed in
+your Gemfile or available on this machine.
+
+█ [ /Users/eugene/projects/hello_app ] bundle install
+Fetching gem metadata from https://rubygems.org/..........
+Fetching version metadata from https://rubygems.org/..
+Fetching dependency metadata from https://rubygems.org/.
+Resolving dependencies...
+Rubygems 2.0.14.1 is not threadsafe, so your gems will be installed one at a time. Upgrade to Rubygems 2.1.0 or higher to enable parallel gem installation.
+Using rake 11.3.0
+Using i18n 0.7.0
+Using json 1.8.3
+Using minitest 5.9.1
+Using thread_safe 0.3.5
+Using builder 3.2.2
+Using erubis 2.7.0
+Using mini_portile2 2.1.0
+Using rack 1.6.4
+Using mime-types-data 3.2016.0521
+Using arel 6.0.3
+Using debug_inspector 0.0.2
+Using bundler 1.13.6
+Using byebug 9.0.6
+Using coffee-script-source 1.10.0
+Using execjs 2.7.0
+Using thor 0.19.1
+Using concurrent-ruby 1.0.2
+Using multi_json 1.12.1
+Using sass 3.4.22
+Using tilt 2.0.5
+Using sqlite3 1.3.12
+Using turbolinks-source 5.0.0
+Using rdoc 4.2.2
+Using tzinfo 1.2.2
+Using nokogiri 1.6.8.1
+Using rack-test 0.6.3
+Using mime-types 3.1
+Using binding_of_caller 0.7.2
+Using coffee-script 2.4.1
+Using uglifier 3.0.3
+Using sprockets 3.7.0
+Using turbolinks 5.0.1
+Using sdoc 0.4.2
+Using activesupport 4.2.2
+Using loofah 2.0.3
+Using mail 2.6.4
+Using rails-deprecated_sanitizer 1.0.3
+Using globalid 0.3.7
+Using activemodel 4.2.2
+Using jbuilder 2.6.0
+Using spring 2.0.0
+Using rails-html-sanitizer 1.0.3
+Using rails-dom-testing 1.0.7
+Using activejob 4.2.2
+Using activerecord 4.2.2
+Using actionview 4.2.2
+Using actionpack 4.2.2
+Using actionmailer 4.2.2
+Using railties 4.2.2
+Using sprockets-rails 3.2.0
+Using coffee-rails 4.1.1
+Using jquery-rails 4.2.1
+Using rails 4.2.2
+Using sass-rails 5.0.6
+sudo: no tty present and no askpass program specified
+Bundler::GemspecError: Could not read gem at
+/Library/Ruby/Gems/2.0.0/cache/web-console-2.0.0.gem. It may be corrupted.
+An error occurred while installing web-console (2.0.0), and Bundler cannot
+continue.
+Make sure that `█ [ /Users/eugene/projects/hello_app ] gem install web-console -v '2.0.0'
+ERROR:  While executing gem ... (Gem::FilePermissionError)
+    You don't have write permissions for the /Library/Ruby/Gems/2.0.0 directory.
+
+█ [ /Users/eugene/projects/hello_app ] bundle show
+Could not find gem 'web-console (= 2.0)' in any of the gem sources listed in
+your Gemfile or available on this machine.
+
+`█ [ /Users/eugene/projects/hello_app ] sudo gem install web-console -v '2.0.0'
+sudo: no tty present and no askpass program specified
+█ [ /Users/eugene/projects/hello_app ] ruby
+
+█ [ /Users/eugene/projects/hello_app ] ruby
+
+█ [ /Users/eugene/projects/hello_app ] cd projects
+Directory path 'projects' does not exist
+
+
+gem install web-console -v '2.0.0' succeeds before bundling.
+
+ 
